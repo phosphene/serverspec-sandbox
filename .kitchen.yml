@@ -9,6 +9,7 @@ platforms:
   - name: ubuntu-12.04-i386
 
 suites:
-  - name: default
+  - name: storm
     run_list:
-    attributes:
+    - recipe[storm::default]
+    
