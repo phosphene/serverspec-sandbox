@@ -7,9 +7,10 @@ provisioner:
 
 platforms:
   - name: ubuntu-12.04-i386
+  
 
 suites:
   - name: storm
     run_list:
-    - recipe[storm::default]
+     - recipe[storm::default]
     
